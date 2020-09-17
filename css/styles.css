@@ -8,11 +8,23 @@
   color: #FFFFFF;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #webcamInput ~ svg {
   opacity: 0 !important;
 }
 
 #webcamInput:checked ~ svg {
+  opacity: 1 !important;
+}
+
+#langInput ~ .radioDot {
+  opacity: 0 !important;
+}
+
+#langInput:checked ~ .radioDot {
   opacity: 1 !important;
 }
 
