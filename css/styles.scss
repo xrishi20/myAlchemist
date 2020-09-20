@@ -18,12 +18,20 @@ html {
   opacity: 1 !important;
 }
 
-#cRInput ~ .radioDot {
+.cRInput {
+  appearance: none !important;
+}
+
+.cRInput ~ .radioDot {
   opacity: 0 !important;
 }
 
-#cRInput:checked ~ .radioDot {
+.cRInput:checked ~ .radioDot {
   opacity: 1 !important;
+}
+
+input:invalid {
+  border-color: #E53E3E !important;
 }
 
 .square {
