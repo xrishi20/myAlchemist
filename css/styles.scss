@@ -18,6 +18,14 @@ html {
   opacity: 1 !important;
 }
 
+#rememberMe ~ svg {
+  opacity: 0 !important;
+}
+
+#rememberMe:checked ~ svg {
+  opacity: 1 !important;
+}
+
 .cRInput {
   appearance: none !important;
 }

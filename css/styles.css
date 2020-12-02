@@ -21,6 +21,14 @@ html {
   opacity: 1 !important;
 }
 
+#rememberMe ~ svg {
+  opacity: 0 !important;
+}
+
+#rememberMe:checked ~ svg {
+  opacity: 1 !important;
+}
+
 .cRInput {
   -webkit-appearance: none !important;
      -moz-appearance: none !important;
