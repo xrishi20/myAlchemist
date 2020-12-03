@@ -16,122 +16,124 @@
   </head>
   <body class="antialiased bg-gray-200 text-gray-900">
     <header class="w-full px-6 mb-8 bg-purple-900 border-b border-white">
-      <nav
-        class="max-w-screen-xl mx-auto w-full py-1 flex justify-between items-center text-white"
-      >
-        <a class="flex flex-shrink-0 pl-3 xl:pl-0" href="./index.html">
-          <img
-            class="h-12 md:h-16 flex-shrink-0"
-            src="./assets/logo.png"
-            alt="logo"
-          />
-        </a>
-        <!-- Desktop Nav -->
-        <div class="items-center hidden md:flex">
-          <button
-            id="langBtn"
-            class="rounded-full focus:outline-none focus:shadow-outline px-1 flex items-center"
-          >
-            EN
-            <svg
-              class="h-5 w-5 ml-1"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19 9L12 16L5 9"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </button>
-          <a href="#" class="ml-8 focus:outline-none focus:shadow-outline px-1">
-            About Us
-          </a>
-          <a href="#" class="ml-8 focus:outline-none focus:shadow-outline px-1">
-            Support
-          </a>
-          <a
-            href="./become.html"
-            class="ml-8 focus:outline-none focus:shadow-outline px-1"
-          >
-            Become an Alchemist
-          </a>
-        </div>
-        <!-- Menu Icon -->
-        <div class="md:hidden z-50 transform scale-50">
-          <button
-            class="hamburger hamburger--emphatic focus:outline-none focus:shadow-outline rounded"
-            type="button"
-          >
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-            </span>
-          </button>
-        </div>
-        <!-- Dark Background -->
-        <div
-          id="darkBG"
-          class="fixed top-0 left-0 w-full h-screen bg-black bg-opacity-50 z-40 opacity-0 pointer-events-none transition duration-150 cursor-pointer"
-        ></div>
-        <!-- Mobile Menu Bar -->
-        <div
-          id="menuM"
-          class="absolute top-0 left-0 w-full px-6 transform translate-y-16 md:hidden z-50 opacity-0 pointer-events-none transition duration-150"
+      <div class="max-w-screen-xl mx-auto w-full md:px-16">
+        <nav
+          class="w-full py-1 flex justify-between items-center text-white"
         >
-          <div
-            class="w-full p-8 rounded-lg shadow-xl bg-purple-900 text-white flex flex-col text-center"
-          >
-            <div class="w-full flex justify-start mb-4">
-              <button
-                id="langBtn"
-                class="rounded-full focus:outline-none focus:shadow-outline px-1 flex items-center"
-              >
-                EN
-                <svg
-                  class="h-5 w-5 ml-1"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M19 9L12 16L5 9"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
-            <a
-              href="#"
-              class="mb-2 py-2 focus:outline-none focus:shadow-outline px-1"
+          <a class="flex flex-shrink-0" href="./index.html">
+            <img
+              class="h-12 md:h-16 flex-shrink-0"
+              src="./assets/logo.png"
+              alt="logo"
+            />
+          </a>
+          <!-- Desktop Nav -->
+          <div class="items-center hidden lg:flex">
+            <button
+              id="langBtn"
+              class="rounded-full focus:outline-none focus:shadow-outline px-1 flex items-center"
             >
+              EN
+              <svg
+                class="h-5 w-5 ml-1"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 9L12 16L5 9"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <a href="#" class="ml-8 focus:outline-none focus:shadow-outline px-1">
               About Us
             </a>
-            <a
-              href="#"
-              class="mb-2 py-2 focus:outline-none focus:shadow-outline px-1"
-            >
+            <a href="#" class="ml-8 focus:outline-none focus:shadow-outline px-1">
               Support
             </a>
             <a
               href="./become.html"
-              class="py-2 focus:outline-none focus:shadow-outline px-1"
+              class="ml-8 focus:outline-none focus:shadow-outline px-1"
             >
               Become an Alchemist
             </a>
           </div>
-        </div>
-      </nav>
+          <!-- Menu Icon -->
+          <div class="lg:hidden z-50 transform scale-50 -mr-4">
+            <button
+              class="hamburger hamburger--emphatic focus:outline-none focus:shadow-outline rounded"
+              type="button"
+            >
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+          <!-- Dark Background -->
+          <div
+            id="darkBG"
+            class="fixed top-0 left-0 w-full h-screen bg-black bg-opacity-50 z-40 opacity-0 pointer-events-none transition duration-150 cursor-pointer"
+          ></div>
+          <!-- Mobile Menu Bar -->
+          <div
+            id="menuM"
+            class="absolute top-0 left-0 w-full px-6 transform translate-y-16 lg:hidden z-50 opacity-0 pointer-events-none transition duration-150"
+          >
+            <div
+              class="w-full p-8 rounded-lg shadow-xl bg-purple-900 text-white flex flex-col text-center"
+            >
+              <div class="w-full flex justify-start mb-4">
+                <button
+                  id="langBtn"
+                  class="rounded-full focus:outline-none focus:shadow-outline px-1 flex items-center"
+                >
+                  EN
+                  <svg
+                    class="h-5 w-5 ml-1"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 9L12 16L5 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <a
+                href="#"
+                class="mb-2 py-2 focus:outline-none focus:shadow-outline px-1"
+              >
+                About Us
+              </a>
+              <a
+                href="#"
+                class="mb-2 py-2 focus:outline-none focus:shadow-outline px-1"
+              >
+                Support
+              </a>
+              <a
+                href="./become.html"
+                class="py-2 focus:outline-none focus:shadow-outline px-1"
+              >
+                Become an Alchemist
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
     <main class="px-6 mb-8">
       <!-- Language -->

@@ -22,129 +22,132 @@
       <nav
         class="w-full fixed top-0 left-0 z-10 bg-transparent transition-colors duration-200"
       >
-      <div class="max-w-screen-xl mx-auto w-full border-b border-purple-300 py-1 flex justify-between items-center text-white">
-        <a class="flex flex-shrink-0 pl-3 xl:pl-0" href="./index.html">
-          <img
-            class="h-12 md:h-16 flex-shrink-0"
-            src="./assets/logo.png"
-            alt="logo"
-          />
-        </a>
-        <!-- Desktop Nav -->
-        <div class="items-center hidden md:flex">
-          <button
-            id="langBtn"
-            class="rounded-full focus:outline-none focus:shadow-outline px-1 flex items-center"
-          >
-            EN
-            <svg
-              class="h-5 w-5 ml-1"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+      <div class="max-w-screen-xl mx-auto w-full md:px-16">
+
+        <div class="w-full border-b border-purple-300 py-1 px-4 md:px-0 flex justify-between items-center text-white">
+          <a class="flex flex-shrink-0" href="./index.html">
+            <img
+              class="h-12 md:h-16 flex-shrink-0"
+              src="./assets/logo.png"
+              alt="logo"
+            />
+          </a>
+          <!-- Desktop Nav -->
+          <div class="items-center hidden lg:flex">
+            <button
+              id="langBtn"
+              class="rounded-full focus:outline-none focus:shadow-outline px-1 flex items-center"
             >
-              <path
-                d="M19 9L12 16L5 9"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </button>
-          <a href="#" class="ml-8 focus:outline-none focus:shadow-outline px-1">
-            About Us
-          </a>
-          <a href="#" class="ml-8 focus:outline-none focus:shadow-outline px-1">
-            Support
-          </a>
-          <a
-            href="./become.html"
-            class="ml-8 focus:outline-none focus:shadow-outline px-1"
-          >
-            Become an Alchemist
-          </a>
-          <a
-            href="./login.html"
-            class="ml-8 py-2 px-3 border border-white rounded-lg focus:outline-none focus:shadow-outline"
-          >
-            Login / Sign Up
-          </a>
-        </div>
-        <!-- Menu Icon -->
-        <div class="md:hidden z-50 transform scale-50">
-          <button
-            class="hamburger hamburger--emphatic focus:outline-none focus:shadow-outline rounded"
-            type="button"
-          >
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-            </span>
-          </button>
-        </div>
-        <!-- Dark Background -->
-        <div
-          id="darkBG"
-          class="fixed top-0 left-0 w-full h-screen bg-black bg-opacity-50 z-40 opacity-0 pointer-events-none transition duration-150 cursor-pointer"
-        ></div>
-        <!-- Mobile Menu Bar -->
-        <div
-          id="menuM"
-          class="absolute top-0 left-0 w-full px-6 transform translate-y-16 md:hidden z-50 opacity-0 pointer-events-none transition duration-150"
-        >
-          <div
-            class="w-full p-8 rounded-lg shadow-xl bg-purple-900 text-white flex flex-col text-center"
-          >
-            <div class="w-full flex justify-start mb-4">
-              <button
-                id="langBtn"
-                class="rounded-full focus:outline-none focus:shadow-outline px-1 flex items-center"
+              EN
+              <svg
+                class="h-5 w-5 ml-1"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                EN
-                <svg
-                  class="h-5 w-5 ml-1"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M19 9L12 16L5 9"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
-            <a
-              href="#"
-              class="mb-2 py-2 focus:outline-none focus:shadow-outline px-1"
-            >
+                <path
+                  d="M19 9L12 16L5 9"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <a href="#" class="ml-8 focus:outline-none focus:shadow-outline px-1">
               About Us
             </a>
-            <a
-              href="#"
-              class="mb-2 py-2 focus:outline-none focus:shadow-outline px-1"
-            >
+            <a href="#" class="ml-8 focus:outline-none focus:shadow-outline px-1">
               Support
             </a>
             <a
               href="./become.html"
-              class="mb-4 py-2 focus:outline-none focus:shadow-outline px-1"
+              class="ml-8 focus:outline-none focus:shadow-outline px-1"
             >
               Become an Alchemist
             </a>
             <a
               href="./login.html"
-              class="py-2 px-3 bg-white text-purple-900 rounded-lg focus:outline-none focus:shadow-outline"
+              class="ml-8 py-2 px-3 border border-white rounded-lg focus:outline-none focus:shadow-outline"
             >
               Login / Sign Up
             </a>
+          </div>
+          <!-- Menu Icon -->
+          <div class="lg:hidden z-50 transform scale-50 -mr-4">
+            <button
+              class="hamburger hamburger--emphatic focus:outline-none focus:shadow-outline rounded"
+              type="button"
+            >
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+          <!-- Dark Background -->
+          <div
+            id="darkBG"
+            class="fixed top-0 left-0 w-full h-screen bg-black bg-opacity-50 z-40 opacity-0 pointer-events-none transition duration-150 cursor-pointer"
+          ></div>
+          <!-- Mobile Menu Bar -->
+          <div
+            id="menuM"
+            class="absolute top-0 left-0 w-full px-6 transform translate-y-16 lg:hidden z-50 opacity-0 pointer-events-none transition duration-150"
+          >
+            <div
+              class="w-full p-8 rounded-lg shadow-xl bg-purple-900 text-white flex flex-col text-center"
+            >
+              <div class="w-full flex justify-start mb-4">
+                <button
+                  id="langBtn"
+                  class="rounded-full focus:outline-none focus:shadow-outline px-1 flex items-center"
+                >
+                  EN
+                  <svg
+                    class="h-5 w-5 ml-1"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 9L12 16L5 9"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <a
+                href="#"
+                class="mb-2 py-2 focus:outline-none focus:shadow-outline px-1"
+              >
+                About Us
+              </a>
+              <a
+                href="#"
+                class="mb-2 py-2 focus:outline-none focus:shadow-outline px-1"
+              >
+                Support
+              </a>
+              <a
+                href="./become.html"
+                class="mb-4 py-2 focus:outline-none focus:shadow-outline px-1"
+              >
+                Become an Alchemist
+              </a>
+              <a
+                href="./login.html"
+                class="py-2 px-3 bg-white text-purple-900 rounded-lg focus:outline-none focus:shadow-outline"
+              >
+                Login / Sign Up
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -294,7 +297,7 @@
                 >
                 <input
                   class="w-full py-2 px-4 rounded-md border-2 border-gray-400 bg-gray-200 focus:outline-none focus:shadow-outline"
-                  name="fName"
+                  id="fName"
                   type="text"
                   placeholder="John"
                 />
@@ -306,7 +309,7 @@
                 >
                 <input
                   class="w-full py-2 px-4 rounded-md border-2 border-gray-400 bg-gray-200 focus:outline-none focus:shadow-outline"
-                  name="lName"
+                  id="lName"
                   type="text"
                   placeholder="Doe"
                 />
@@ -320,7 +323,7 @@
                 >
                 <input
                   class="w-full py-2 px-4 rounded-md border-2 border-gray-400 bg-gray-200 focus:outline-none focus:shadow-outline"
-                  name="speciality"
+                  id="speciality"
                   type="text"
                   placeholder="Atrologist, Fortune Teller etc"
                 />
@@ -332,7 +335,7 @@
                 >
                 <input
                   class="w-full py-2 px-4 rounded-md border-2 border-gray-400 bg-gray-200 focus:outline-none focus:shadow-outline"
-                  name="email"
+                  id="email"
                   type="email"
                   placeholder="myEmail@email.com"
                 />
@@ -344,7 +347,7 @@
                 >
                 <input
                   class="w-full py-2 px-4 rounded-md border-2 border-gray-400 bg-gray-200 focus:outline-none focus:shadow-outline"
-                  name="phone"
+                  id="phone"
                   type="tel"
                   placeholder="0123 456 789"
                 />
@@ -358,7 +361,7 @@
                 >
                 <input
                   class="w-full py-2 px-4 rounded-md border-2 border-gray-400 bg-gray-200 focus:outline-none focus:shadow-outline"
-                  name="postalCode"
+                  id="postalCode"
                   type="text"
                   placeholder="012356"
                 />
